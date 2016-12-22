@@ -30,9 +30,9 @@
 
 ## API Methods
 > **Note:**
-
+> 
 >  All requests except login and register must be send with **_token** field
-
+>  
 >  All requests with image must be  encoded as **"multipart/form-data"**
 
 #### **Register User**
@@ -121,3 +121,24 @@ Get all configs record for current user
 
 ***
 
+#### **Add Product to Cart**
+
+* **URL:**  `/api/order/addToCart`
+
+* **Method:**  `POST`
+  
+*  **Params:** 
+	-  `product_id [int|string]`
+	- `qty [int|string]` ( not required, default 1)
+***
+
+
+#### **Get  Cart**
+
+* **URL:**  `/api/order/getCart`
+
+* **Method:**  `GET`
+  
+*  **Params:** 
+
+***
