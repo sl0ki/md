@@ -130,6 +130,7 @@ Get all configs record for current user
 *  **Params:** 
 	-  `product_id [int|string]`
 	- `qty [int|string]` ( not required, default 1)
+	
 ***
 
 
