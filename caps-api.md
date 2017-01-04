@@ -73,7 +73,10 @@
 *  **Params:**
 
 	-   `json [string]`
-	-	`image [file]`
+	-   `attachment_0 [file]`
+	-   ...
+	-   ...
+	-   `attachment_N [file]`	
 
 ***
 #### **Edit Config**
@@ -86,7 +89,10 @@
 
 	-   `id [int|string]`
 	-   `json [string]`
-	-	 `image [file]`
+	-   `attachment_0 [file]`
+	-   ...
+	-   ...
+	-   `attachment_N [file]`	
 
 ***
 #### **Get All Configs**
@@ -129,10 +135,21 @@ Get all configs record for current user
   
 *  **Params:** 
 	-  `product_id [int|string]`
-	- `qty [int|string]` ( not required, default 1)
+	-  `qty [int|string]` ( not required, default 1)
+	-   `attachment_0 [file]`
+	-   ...
+	-   ...
+	-   `attachment_N [file]`
 	
 ***
 
+#### **Clear Cart**
+
+* **URL:**  `/api/order/clearCart`
+
+* **Method:**  `POST`
+  	
+***
 
 #### **Get  Cart**
 
@@ -141,5 +158,15 @@ Get all configs record for current user
 * **Method:**  `GET`
   
 *  **Params:** 
+
+***
+
+#### ** Redirect to cart **
+
+Redirect user to magento checkout page
+
+* **URL:**  `/api/order/checkout?_token={token}`
+
+* **Method:**  `GET|POST`
 
 ***
