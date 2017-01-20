@@ -170,3 +170,19 @@ Redirect user to magento checkout page
 * **Method:**  `GET|POST`
 
 ***
+
+#### **Send Email**
+
+* **URL:**  `/api/share/email`
+
+* **Method:**  `POST`
+  
+*  **Params:** 
+	-  `from_name [string]`
+	-  `from_email [string]`	
+	-  `to_email [string]`
+	-  `subject [string]`
+	-  `body [string]`	
+	-  `attachment[]` ( array of images url)
+	
+***
