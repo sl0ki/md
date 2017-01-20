@@ -183,6 +183,6 @@ Redirect user to magento checkout page
 	-  `to_email [string]`
 	-  `subject [string]`
 	-  `body [string]`	
-	-  `attachment[]` ( array of images url)
+	-  `attachment [FILE]`
 	
 ***
