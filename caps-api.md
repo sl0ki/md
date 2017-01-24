@@ -186,3 +186,14 @@ Redirect user to magento checkout page
 	-  `attachment [FILE]`
 	
 ***
+
+#### **Facebook Share**
+
+* **URL:**  `/api/share/fb`
+
+* **Method:**  `POST`
+  
+*  **Params:** 	
+	-  `attachment [FILE]`
+	
+***
